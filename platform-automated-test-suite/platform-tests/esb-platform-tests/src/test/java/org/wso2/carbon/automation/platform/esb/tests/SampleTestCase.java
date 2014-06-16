@@ -35,7 +35,13 @@ public class SampleTestCase {
 
     @Test(groups = "wso2.esb")
     public void testESB2() {
-        System.out.println("Test1");
+        System.out.println("Test2");
+    }
+
+
+    @Test(groups = "wso2.esb")
+    public void testESB3() {
+        System.out.println("Test3");
     }
 
     @AfterClass(alwaysRun = true)
