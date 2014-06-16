@@ -37,7 +37,7 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <disableXmlReport>false</disableXmlReport>
                     <parallel>false</parallel>
-                    <skipTests>true</skipTests>
+                    <skipTests>false</skipTests>
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
@@ -49,14 +49,8 @@
                             </value>
                         </property>
                         <property>
-                            <name>server.list</name>
-                            <value>
-                                ESB,DSS
-                            </value>
-                        </property>
-                        <property>
                             <name>usedefaultlisteners</name>
-                            <value>false</value>
+                            <value>true</value>
                         </property>
                         <maven.test.haltafterfailure>false</maven.test.haltafterfailure>
                     </systemProperties>

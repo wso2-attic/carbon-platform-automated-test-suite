@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+
+    <test name="esb-sample">
+        <classes>
+            <class name="org.wso2.carbon.automation.platform.esb.tests.SampleTestCase" />
+        </classes>
+    </test>
+
+</suite>
