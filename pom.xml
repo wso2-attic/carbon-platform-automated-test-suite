@@ -11,6 +11,7 @@
     <name>WSO2 Platform Automated Suite - Parent project</name>
 
     <modules>
+        <module>platform-automated-test-suite/platform-tests</module>
         <module>platform-automated-test-suite/distribution</module>
     </modules>
 
