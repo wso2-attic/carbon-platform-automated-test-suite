@@ -73,12 +73,6 @@ System Requirements
 
 4. Maven 2.1.0 or later.
 
-Project Resources
-
-WSO2 PATS Documentation 
-
-https://docs.wso2.com/pages/viewpage.action?pageId=34603102
-
 Reporting Problems
 
 Issues can be reported using the WSO2 PATS public JIRA available here
@@ -87,7 +81,7 @@ Support
 
 We are committed to ensuring that your enterprise middleware deployment is completely supported from evaluation to production. Our unique approach ensures that all support leverages our open development methodology and is provided by the very same engineers who build the technology. For more details and to take advantage of this unique opportunity http://wso2.com/support/
 
-For more information about WSO2 Platform Automated Test Suite, please refer https://docs.wso2.com/display/TA430/Introducing+Test+Automation+Framework or visit the WSO2 Oxygen Tank developer portal for addition resources.
+For more information about WSO2 Platform Automated Test Suite, please refer https://docs.wso2.com/pages/viewpage.action?pageId=34603102 or visit the WSO2 Oxygen Tank developer portal for addition resources.
 
 Thank you for your interest in WSO2 Test Automation Framework.We value your patronage.
 
