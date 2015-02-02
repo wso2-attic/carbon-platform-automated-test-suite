@@ -22,9 +22,9 @@
     </modules>
 
     <scm>
-        <connection>scm:git:https://github.com/wso2/carbon-platform-integration-utils.git</connection>
-        <developerConnection>scm:git:https://github.com/wso2/carbon-platform-integration-utils.git</developerConnection>
-        <url>https://github.com/wso2/carbon-platform-integration-utils.git</url>
+        <connection>scm:git:https://github.com/wso2/carbon-platform-automated-test-suite.git</connection>
+        <developerConnection>scm:git:https://github.com/wso2/carbon-platform-automated-test-suite.git</developerConnection>
+        <url>https://github.com/wso2/carbon-platform-automated-test-suite.git</url>
         <tag>HEAD</tag>
     </scm>
     <build>
