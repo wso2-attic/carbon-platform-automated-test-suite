@@ -21,6 +21,31 @@
         <module>platform-automated-test-suite/distribution</module>
     </modules>
 
+    <scm>
+        <connection>scm:git:https://github.com/wso2/carbon-platform-integration-utils.git</connection>
+        <developerConnection>scm:git:https://github.com/wso2/carbon-platform-integration-utils.git</developerConnection>
+        <url>https://github.com/wso2/carbon-platform-integration-utils.git</url>
+        <tag>HEAD</tag>
+    </scm>
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <configuration>
+                        <preparationGoals>clean install</preparationGoals>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -54,5 +79,6 @@
     <properties>
         <carbon.platform.version>4.3.0</carbon.platform.version>
         <test.framwork.version>4.3.1</test.framwork.version>
+        <project.scm.id>scm-server</project.scm.id>
     </properties>
 </project>
