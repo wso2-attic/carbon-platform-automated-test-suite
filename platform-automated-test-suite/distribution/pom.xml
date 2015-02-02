@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <groupId>org.wso2.carbon.automation</groupId>
+        <groupId>org.wso2.carbon.automation-test-suite</groupId>
         <artifactId>wso2-platform-automated-test-suite</artifactId>
         <version>4.3.0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
@@ -59,27 +59,7 @@
 
             </plugin>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-assembly-plugin</artifactId>
-                <executions>
-                    <execution>
-                        <id>dist</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>attached</goal>
-                        </goals>
-                        <configuration>
-                            <filters>
-                                <filter>${basedir}/src/assembly/filter.properties</filter>
-                            </filters>
-                            <descriptors>
-                                <descriptor>src/assembly/bin.xml</descriptor>
-                            </descriptors>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+
 
             <plugin>
                 <artifactId>maven-resources-plugin</artifactId>
@@ -121,21 +101,6 @@
     </distributionManagement>
 
     <dependencies>
-        <!--<dependency>-->
-        <!--<groupId>org.wso2.carbon.automation</groupId>-->
-        <!--<artifactId>org.wso2.carbon.automation.test.platform.scenario</artifactId>-->
-        <!--<type>test-jar</type>-->
-        <!--<scope>test</scope>-->
-        <!--<version>${project.version}</version>-->
-        <!--</dependency>-->
-        <!--<dependency>-->
-            <!--<groupId>org.wso2.identity</groupId>-->
-            <!--<artifactId>org.wso2.carbon.identitry.integration.test</artifactId>-->
-            <!--<type>test-jar</type>-->
-            <!--<scope>test</scope>-->
-            <!--<version>5.0.0</version>-->
-            <!--<optional>true</optional>-->
-        <!--</dependency>-->
         <dependency>
             <groupId>org.wso2.carbon.automation</groupId>
             <artifactId>org.wso2.carbon.automation.engine</artifactId>
@@ -149,11 +114,11 @@
             <artifactId>org.wso2.carbon.automation.test.utils</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.wso2.carbon</groupId>
+            <groupId>org.wso2.carbon.automationutils</groupId>
             <artifactId>org.wso2.carbon.integration.common.utils</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.wso2.carbon</groupId>
+            <groupId>org.wso2.carbon.automationutils</groupId>
             <artifactId>org.wso2.carbon.integration.common.extensions</artifactId>
         </dependency>
     </dependencies>

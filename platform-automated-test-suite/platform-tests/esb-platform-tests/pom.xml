@@ -6,13 +6,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.wso2.carbon.platform.automation</groupId>
+        <groupId>org.wso2.carbon.automation-test-suite</groupId>
         <artifactId>wso2-platform-tests</artifactId>
         <version>4.3.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>org.wso2.carbon.automation.platform.esb.tests</artifactId>
+    <artifactId>automation-test-suite-esb</artifactId>
     <name>WSO2 Platform Automated Suite - ESB Platform Test Scenarios</name>
     <packaging>jar</packaging>
 
@@ -87,11 +87,11 @@
             <artifactId>org.wso2.carbon.automation.test.utils</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.wso2.carbon</groupId>
+            <groupId>org.wso2.carbon.automationutils</groupId>
             <artifactId>org.wso2.carbon.integration.common.utils</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.wso2.carbon</groupId>
+            <groupId>org.wso2.carbon.automationutils</groupId>
             <artifactId>org.wso2.carbon.integration.common.extensions</artifactId>
         </dependency>
     </dependencies>
