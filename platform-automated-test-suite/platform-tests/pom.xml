@@ -13,8 +13,8 @@
 
     <name>WSO2 Platform Automated Suite - Platform Tests</name>
 
-    <modules>
-        <module>esb-platform-tests</module>
-    </modules>
+    <!--<modules>-->
+        <!--<module>esb-platform-tests</module>-->
+    <!--</modules>-->
 
 </project>
