@@ -79,6 +79,6 @@
     <properties>
         <carbon.platform.version>4.3.0</carbon.platform.version>
         <test.framwork.version>4.3.1</test.framwork.version>
-        <project.scm.id>nexus-releases</project.scm.id>
+        <project.scm.id>my-scm-server</project.scm.id>
     </properties>
 </project>
