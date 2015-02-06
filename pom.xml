@@ -31,34 +31,34 @@
             <dependency>
                 <groupId>org.wso2.carbon.automation</groupId>
                 <artifactId>org.wso2.carbon.automation.engine</artifactId>
-                <version>${test.framwork.version}</version>
+                <version>${carbon.automation.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.automation</groupId>
                 <artifactId>org.wso2.carbon.automation.extensions</artifactId>
-                <version>${test.framwork.version}</version>
+                <version>${carbon.automation.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.automation</groupId>
                 <artifactId>org.wso2.carbon.automation.test.utils</artifactId>
-                <version>${test.framwork.version}</version>
+                <version>${carbon.automation.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.automationutils</groupId>
                 <artifactId>org.wso2.carbon.integration.common.utils</artifactId>
-                <version>${carbon.platform.version}</version>
+                <version>${carbon.automation.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.automationutils</groupId>
                 <artifactId>org.wso2.carbon.integration.common.extensions</artifactId>
-                <version>${carbon.platform.version}</version>
+                <version>${carbon.automation.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
 
     <properties>
-        <carbon.platform.version>4.3.0</carbon.platform.version>
-        <test.framwork.version>4.3.1</test.framwork.version>
+        <carbon.automation.version>4.3.1</carbon.automation.version>
+        <carbon.automationutils.version>4.3.0</carbon.automationutils.version>
         <project.scm.id>my-scm-server</project.scm.id>
     </properties>
 </project>
