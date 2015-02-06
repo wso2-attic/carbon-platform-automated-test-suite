@@ -9,7 +9,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.wso2.carbon.automation-test-suite</groupId>
     <artifactId>wso2-platform-automated-test-suite</artifactId>
-    <version>4.3.0-SNAPSHOT</version>
+    <version>4.3.0</version>
     <packaging>pom</packaging>
 
     <name>WSO2 Platform Automated Suite - Parent project</name>
@@ -23,7 +23,7 @@
         <connection>scm:git:https://github.com/wso2/carbon-platform-automated-test-suite.git</connection>
         <developerConnection>scm:git:https://github.com/wso2/carbon-platform-automated-test-suite.git</developerConnection>
         <url>https://github.com/wso2/carbon-platform-automated-test-suite.git</url>
-        <tag>HEAD</tag>
+        <tag>wso2-platform-automated-test-suite-4.3.0</tag>
     </scm>
     <build>
         <pluginManagement>
