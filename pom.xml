@@ -46,12 +46,12 @@
             <dependency>
                 <groupId>org.wso2.carbon.automationutils</groupId>
                 <artifactId>org.wso2.carbon.integration.common.utils</artifactId>
-                <version>${carbon.automation.version}</version>
+                <version>${carbon.automationutils.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.wso2.carbon.automationutils</groupId>
                 <artifactId>org.wso2.carbon.integration.common.extensions</artifactId>
-                <version>${carbon.automation.version}</version>
+                <version>${carbon.automationutils.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
